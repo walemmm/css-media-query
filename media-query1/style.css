@@ -1,0 +1,26 @@
+/*basic style*/
+body{
+    background-color: blue;
+}
+
+/*mobile responsiveness styles for 780px screen size*/
+@media screen and (max-width: 896px) {
+    body{
+        background-color: brown;
+    }
+
+    h1{
+        color: #fff;
+    }
+}
+
+/*mobile responsiveness styles for 780px screen size*/
+@media screen and (max-width: 460px) {
+    body{
+        background-color: red;
+    }
+
+    h1{
+        color: #fff;
+    }
+}
